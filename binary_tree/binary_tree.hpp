@@ -1,6 +1,7 @@
 #ifndef binary_tree_hpp
 #define binary_tree_hpp
 
+#include <vector>
 class BinaryTreeNode
 {
 public:
@@ -12,7 +13,8 @@ public:
     ~BinaryTreeNode();
     BinaryTreeNode * insertLeft(int value);
     BinaryTreeNode * insertRight(int value);
-    void printTree();
+    void printTree(std::vector<int> * list);
+    int validTree();
 };
 
 #endif

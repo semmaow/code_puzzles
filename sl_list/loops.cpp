@@ -1,6 +1,9 @@
 #include <iostream>
 #include "sl_list.hpp"
 
+// to work on problem here:
+// https://www.interviewcake.com/question/cpp/linked-list-cycles
+
 // check for loops in a singly linked list
 
 int main() {
