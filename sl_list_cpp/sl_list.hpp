@@ -7,7 +7,7 @@ class SLListNode {
     SLListNode* next_;
     SLListNode(int value);
 
-    bool checkForLoopsWithSet(SLListNode head);
+    bool checkForLoopsWithSet();
     bool checkForLoopsWithRunners();
 };
 
