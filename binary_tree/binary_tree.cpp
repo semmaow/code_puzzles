@@ -67,11 +67,13 @@ int BinaryTreeNode::isValidTree()
   return 0;
 }
 
-void BinaryTreeNode::buildTree(std::vector<int> * numbers){
+BinaryTreeNode * BinaryTreeNode::buildTree(std::vector<int> * numbers){
+  
+  // make a tree!
 
 }
 
-void BinaryTreeNode::buildValidTree(std::vector<int> * numbers){
+BinaryTreeNode * BinaryTreeNode::buildValidTree(std::vector<int> * numbers){
 
 
 }
