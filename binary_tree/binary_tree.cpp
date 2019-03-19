@@ -75,5 +75,6 @@ BinaryTreeNode * BinaryTreeNode::buildTree(std::vector<int> * numbers){
 
 BinaryTreeNode * BinaryTreeNode::buildValidTree(std::vector<int> * numbers){
 
+  // make another tree!
 
 }
