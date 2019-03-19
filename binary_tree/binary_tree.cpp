@@ -1,5 +1,3 @@
-
-
 #include <iostream>    
 #include "binary_tree.hpp"
 #include <vector>
@@ -47,7 +45,7 @@ void BinaryTreeNode::printTree(std::vector<int> * list)
   
 }
 
-int BinaryTreeNode::validTree()
+int BinaryTreeNode::isValidTree()
 {
   std::vector<int> * in_order;
   this->printTree(in_order);
@@ -69,4 +67,11 @@ int BinaryTreeNode::validTree()
   return 0;
 }
 
-  
+void BinaryTreeNode::buildTree(std::vector<int> * numbers){
+
+}
+
+void BinaryTreeNode::buildValidTree(std::vector<int> * numbers){
+
+
+}
